@@ -23,7 +23,7 @@ module.exports = {
                     plugins: ['@babel/plugin-transform-runtime']
                 }
             },
-            //处理less文件
+            //处理css文件
             {
                 test:/\.css/,
                 use:[
